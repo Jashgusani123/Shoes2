@@ -1,0 +1,43 @@
+  
+  .con{
+    border: 1px solid black;
+    background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+    width: 80%;
+    color: white;
+    height: 468px;
+    margin-left: 10%;
+    margin-top: 90px;
+    box-shadow: 0px 0px 10px black;
+  }
+  .contenar{
+    
+    position: absolute;
+    inset: 0;
+    transform: skewY(10deg);
+    background: linear-gradient(to right, #b92b27, #1565c0);
+    z-index: -1;
+    box-shadow: 0px 0px 10px black;
+  }
+  .text{
+    padding: 20px;
+   display: block;
+
+  }
+  .one{
+    width: 420px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .photo img{
+    width: 500px;
+    height: 300px;
+    right: 1%;
+    top: 10%;
+    position: absolute;
+    background-color:transparent ;
+  
+  }
+  .photo img:hover{
+    height: 523px;
+    width: 750px;
+
+  }
